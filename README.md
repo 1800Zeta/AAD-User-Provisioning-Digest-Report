@@ -16,14 +16,14 @@ Author: asmalser
 - Requires additional permission - AuditLog.Read.All
 
 ## Params
-$ClientID        - Client ID of the application registered in AAD
-$ClientSecret    - Secret of application registered in AAD
-$tenantdomain    - AAD Tenant; for example, contoso.onmicrosoft.com
-$sendEmail       - Boolean to send an email or not
-$UseInternalSMTP - Boolean if you're using Office 365 set false, else set true
-$GenerateFile    - Boolean, useful to test, outputs a file rather than sending email
-$emailRecipients - Comma separated list of recipient email addresses
-$emailFrom       - Email address sending from
-$emailUsername   - Username if your email server requires Authentication
-$emailPassword   - Password if email server requires auth (need to convert to secure string)
-$SMTPServer      - address of SMTP server to use if different to O365
+ClientID        - Client ID of the application registered in AAD
+ClientSecret    - Secret of application registered in AAD
+tenantdomain    - AAD Tenant; for example, contoso.onmicrosoft.com
+sendEmail       - Boolean to send an email or not
+UseInternalSMTP - Boolean if you're using Office 365 set false, else set true
+GenerateFile    - Boolean, useful to test, outputs a file rather than sending email
+emailRecipients - Comma separated list of recipient email addresses
+emailFrom       - Email address sending from
+emailUsername   - Username if your email server requires Authentication
+emailPassword   - Password if email server requires auth (need to convert to secure string)
+SMTPServer      - address of SMTP server to use if different to O365
